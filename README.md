@@ -14,7 +14,7 @@ This is a simple web-based voice chat application that demonstrates a real-time,
 * **Backend**: Node.js, Express.js
 * **Real-time Communication**: `ws` (WebSockets)
 * **AI**: Google Gemini Live API (`@google/generative-ai`)
-* **Frontend**: HTML, CSS, JavaScript (`MediaRecorder` API)
+* **Frontend**: HTML, CSS, JavaScript 
 
 ---
 
@@ -22,26 +22,8 @@ This is a simple web-based voice chat application that demonstrates a real-time,
 
 The recommended method for running this project is using Replit, as it provides a clean, pre-configured environment that avoids common local setup issues.
 
-### Recommended Setup: Replit (Guaranteed to Work)
+### Recommended Setup: 
 
-1.  **Create a New Replit Project**
-    * Go to **[replit.com](https://replit.com)** and create a new, blank **`Node.js`** Repl.
-
-2.  **Copy Project Files**
-    * Copy the `server.js`, `package.json`, `.replit`, `public/index.html`, and `public/script.js` files from this project into your new Repl, maintaining the same folder structure.
-
-3.  **Add API Key**
-    * On the left sidebar of your Repl, click the **Secrets** icon (a key 🔑).
-    * Create a new secret with the following details:
-        * **KEY**: `GEMINI_API_KEY`
-        * **VALUE**: `Your_Secret_Gemini_API_Key`
-
-4.  **Install and Run**
-    * Go to the **`Shell`** tab.
-    * Run the command: `npm install`
-    * After it finishes, click the green **`Run`** button at the top.
-
-### Local Machine Setup
 
 > **Note**: Running this project locally can be difficult due to potential environment issues with Node.js and `npm` that can prevent the correct dependencies from being installed. The Replit method is strongly recommended.
 
