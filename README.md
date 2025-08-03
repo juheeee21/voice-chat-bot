@@ -52,6 +52,6 @@ The recommended method for running this project is using Replit, as it provides 
 5.  **Run the Application**
     * Start the server with the following command:
         ```bash
-        npm start
+        npm index.js
         ```
     * Open your browser and navigate to `http://localhost:3000`.
